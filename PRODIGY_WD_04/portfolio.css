@@ -1,0 +1,140 @@
+body { font-family: Arial, 
+    sans-serif; 
+    text-align: center;
+     margin: 0; padding: 0; }
+
+header { background: hsl(9, 97%, 47%);
+     color: white;
+     font-size:medium;
+      padding: 20px; }
+
+nav ul { list-style: none;
+     padding: 0; }
+
+nav ul li { display: inline;
+     margin: 0 15px; }
+
+nav ul li a { text-decoration: none;
+     color: #333;
+      font-weight: bold; 
+    color: darkgreen;}
+
+
+section { padding: 50px; 
+    color:darkblue;
+    font-weight: 400;
+}
+
+header p{
+    font-size: medium;
+}
+
+section h2{
+    color: darkred;
+}
+#about{
+    text-align: center;
+    padding: 50px;
+    background:yellow;
+}
+
+.about {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h3 {
+    color: #333;
+}
+
+.about a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.about a:hover {
+    color: #0056b3;
+}
+#projects {
+    text-align: center;
+    padding: 50px;
+    background:rgb(7, 227, 219);
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
+
+#contact {
+    text-align: center;
+    padding: 50px;
+    background:#07e061;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #0056b3;
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
