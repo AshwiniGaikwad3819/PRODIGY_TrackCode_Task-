@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="weather app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">weather App</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About this App</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  How to use?
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Delhi</a></li>
-                    <li><a class="dropdown-item" href="#">Seattle</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Bangalore</a></li>
-                  </ul>
-                
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ">Usage Guide</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+  <div class="card">
+    <div class="search">
+      <input  type="text" placeholder="enter city name" spellcheck="false">
+      <button> <img src="search.png" ></button>
+    </div>
+    <div class="weather">
+      <img src="rain.png" class="weather-icon">
+      <h1 class="temp">22°C</h1>
+      <h2 class="city"> New York</h2>
+      <div class="details">
+        <div class="col">
+          <img src="humidity2.png" width="100px"  alt="simple image">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
           </div>
         </div>
-      </nav>
+        <div class="col">
+          <img src="wind.png" width="100px" alt="simple image">
+          <div>
+            <p class="wind">15 km/hr</p>
+            <p>wind speed</p>
+          </div>
+      </div>
 
-   
-    <script src="weather app.js"></script>
+</div>
+
+
+  </div>
+  <script src="weather app.js"></script>
 </body>
 </html>

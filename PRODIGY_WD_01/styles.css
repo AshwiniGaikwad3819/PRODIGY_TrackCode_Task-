@@ -9,12 +9,17 @@ body {
     left: 0;
     width: 100%;
     background: transparent;
-    padding: 25px 40px;
+    padding: 25px 30px;
     display:inline-flexbox;
     justify-content: space-between;
     align-items: center;
     transition: background 0.3s;
     background-color: aqua;
+}
+slider img{
+     size:	1202 × 225 px;
+ 
+
 }
 
 .navbar .logo{
@@ -26,6 +31,7 @@ body {
     background:forestgreen;
 }
 .navbar a {
+    text-align: center;
     color:orangered;
     text-decoration: none;
     padding:40px 30px;
@@ -39,7 +45,9 @@ body {
     display: flex;
 }
 .menu a {
+
     margin-left: 15px;
+    
 }
 @media (max-width: 768px) {
     .menu {
