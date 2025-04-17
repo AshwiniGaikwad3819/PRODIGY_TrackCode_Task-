@@ -16,13 +16,15 @@ body {
     transition: background 0.3s;
     background-color: aqua;
 }
-slider img{
-     size:	1202 × 225 px;
- 
+ img{
+    size-adjust: 30px;
+    
+        overflow-clip-margin: content-box;
+        overflow: clip;
 
 }
 
-.navbar .logo{
+.navbar.logo{
     color: brown;
     font-size: xx-large;
     font-weight: bold;

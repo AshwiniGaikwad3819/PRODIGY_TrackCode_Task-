@@ -4,11 +4,11 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color:#604652 ;
+  background-color:#98FB98	 ;
 }
 
 header {
-  background: hsl(9, 97%, 47%);
+  background: #98FB98;
   color: white;
   font-size: medium;
   padding: 20px;
@@ -52,7 +52,7 @@ section h2 {
 #about {
   text-align: center;
   padding: 50px;
-  background: yellow;
+  background:#FFFACD	;
 }
 
 .about {
